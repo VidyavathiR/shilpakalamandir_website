@@ -1,0 +1,56 @@
+<!-- footer -->
+<div class="bg-zinc-100">
+    <div class="container items-center text-center border-b-2 lg:justify-between lg:flex py-14">
+        <div class="py-4">
+            <p class="text-2xl">Lets</p>
+            <h1 class="text-3xl font-medium lg:text-6xl">Get in touch</h1>
+        </div>
+        <a class="inline-flex items-center gap-1 px-6 py-3 text-sm text-white rounded-full shadow-lg bg-gray-950 hover:bg-gray-800 hover:ring-2 hover:ring-gray-950 ring-offset-2"
+            href="{% url 'contact' %}">
+            CONTACTUS
+            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round"
+                stroke-linejoin="round" class="text-xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M17 7l-10 10"></path>
+                <path d="M8 7l9 0l0 9"></path>
+            </svg>
+        </a>
+    </div>
+</div>
+<div class="bg-zinc-100">
+    <div class="container lg:grid lg:grid-cols-2 py-14">
+        <div class="grid gap-4 pb-4 text-left lg:pb-0 lg:grid-cols-3">
+            <div>
+                <h2 class="pb-4 text-xl font-semibold">COMPANY</h2>
+                <div class="flex flex-col">
+                    <a class="py-1 hover:underline" href="/about">About Us</a>
+                    <a class="py-1 hover:underline" href="/press">Instagram</a>
+                    <a class="py-1 hover:underline" href="/careers">Facebook</a>
+                </div>
+            </div>
+        </div>
+        <div class="pt-4 text-center border-t-2 lg:pt-0 lg:text-left lg:border-0 lg:pl-20">
+            <p class="pb-4 text-xl font-semibold">STAY UPDATED</p>
+            <div class="relative lg:max-w-sm">
+                <input class="w-full px-4 pr-20 border-2 border-gray-300 rounded-full h-14" type="text"
+                    placeholder="Email Address" />
+                <button
+                    class="absolute h-10 px-3 text-sm text-white bg-black rounded-full top-2 right-2 hover:border-2 hover:border-black hover:bg-white hover:text-black">Subscribe</button>
+            </div>
+            <p class="pt-4 text-gray-500">
+                By subscribing to our newsletter, you agree to receive emails from us. Your personal data will be
+                stored and processed in accordance with our Privacy Policy and you can unsubscribe at any time.
+            </p>
+        </div>
+    </div>
+    <div class="py-10 bg-zinc-200">
+        <div class="container text-center text-gray-500 lg:justify-between lg:flex">
+            <div class="pb-4 lg:pb-0">
+                <p>©2024 Shilpakalamandira.All rights reserved</p>
+            </div>
+            <div class=""><a class="p-4 hover:underline" href="/privacy">Privacy</a><a class="p-4 hover:underline"
+                    href="/terms">Terms</a></div>
+        </div>
+    </div>
+</div>
+<!-- footer end -->

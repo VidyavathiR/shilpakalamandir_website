@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+
+   <div>
+    <h1 class="center">Portfolio</h1>
+    <p>Explore the world of exquisite artistry and spiritual significance in our portfolio through brass, copper, and silver Kavachams and masks. These intricately crafted sculptures showcase deity representations, animal figurines, abstract art, and mythological scenes. Discover how they enrich religious practices, cultural traditions, and artistic expressions, inviting you into a realm of creativity and devotion. 
+    </p>
+   </div>
+
+                        
+   <div id="services">
+    <div class="container">
+        <h1 class="subtitle">Our Services</h1>
+        <div class="services-list">
+            <div>
+                
+                <h2>Brass Kavacham</h2>
+                <li>Brass Kavacham’s or masks serve as captivating canvases for sculptures to express their creativity.</li>
+                <li>These intricate pieces of art come in various forms, each with its unique significance and style.</li>
+                           
+                <a href="{% url 'brass' %}">Learn more</a>
+
+            </div>
+            <div>
+                
+                <h2>Alankara Kavacham</h2>
+                <li>Copper masks play a unique role in the realm of Alankara (decoration and adornment) in various cultures and rituals.</li>
+                <li>Craftsmen design these exquisite sculptures with specific intentions to enhance the aesthetic and spiritual aspects of worship.</li>
+                <a href="{% url 'alankara' %}">Learn more</a>
+
+            </div>
+            <div>
+                
+                <h2>Vigraha</h2>
+                <li>Brass idols, with their intricate craftsmanship and spiritual significance, play a vital role in the Alankara, adding depth and beauty to religious and cultural practices</li>
+                <li>Database Design and Optimization</li>
+                <a href="{% url 'vigraha' %}">Learn more</a>
+
+            </div>
+            <div>
+                
+                <h2>Silver Kavacham</h2>
+                <li>Silver Kavacham’s or masks serve as captivating canvases for sculptures to express their creativity. </li>
+                <li>These intricate pieces of art come in various forms, each with its unique significance and style.</li>
+                <a href="{% url 'silver' %}">Learn more</a>
+
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+                    
+               
+
+
+
+{% endblock %}
