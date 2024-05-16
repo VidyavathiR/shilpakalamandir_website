@@ -25,4 +25,4 @@ def vigraha(request):
     return render(request, 'vigraha.html')
 
 def silver(request):
-    return render(request, 'portfolioitems\silver.html')
+    return render(request, 'silver.html')
