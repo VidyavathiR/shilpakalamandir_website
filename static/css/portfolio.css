@@ -1,3 +1,7 @@
+.wrap{
+   
+  background: #640d0d;
+}
 #services{
     padding: 30px 0;
 }
@@ -9,7 +13,7 @@
     
 }
 .services-list div{
-    background: #f0eded;
+    background: #fff;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -34,7 +38,7 @@
     display: inline-block;
 }
 .services-list div:hover{
-    background:linear-gradient(rgba(0,0,0,0.6), #ebedee);
+    background:linear-gradient(rgba(170, 41, 41, 0.6), #fff);
     transform: translateY(-10px);
 
 }
