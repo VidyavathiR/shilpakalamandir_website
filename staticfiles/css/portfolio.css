@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    box-sizing: border-box;
+}
+
 #about{
     padding: 20px 20px;
 
@@ -77,3 +84,76 @@ h1{
     display: block;
     border-style:none;
     }
+
+
+/*----------------contact----------------- */
+.container{
+    padding: 10px 10%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+}
+
+
+.contact-left{
+    flex-basis: 45%;
+    flex-wrap: wrap;
+}
+.contact-right{
+    flex-basis: 55%;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color: black;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.socialicons{
+    margin-top: 30px;
+}
+.socialicons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: black;
+    display: inline-block;
+    transition: transform 0.5s;
+
+}
+.socialicons a:hover{
+    color: #fff;
+    transform: translateY(-5px);
+
+}
+.button.button2{
+    display: inline-block;
+    background: #fff;
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color: #fff;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .button2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+h1{
+    margin-top: 30px;
+
+}
