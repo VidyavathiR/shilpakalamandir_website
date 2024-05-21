@@ -8,6 +8,7 @@ body {
     background: #e4e0e0;
 }
 
+ /* gallery css for portfolio */
 .gallery {
     width: 900px;
     display: flex;
@@ -46,8 +47,8 @@ body {
     transform: scale(1.1);
 }
 
-/* gallery css */
 
+/* gallery css */
 
 .gallery1{
     width: 1000px;
