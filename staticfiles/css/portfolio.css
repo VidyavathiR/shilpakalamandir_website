@@ -1,17 +1,17 @@
 /* portfolio css */
-#about{
+#about {
     padding: 20px 20px;
 
 }
 
-h1{
-   text-align: center;
-    padding: 20px;
-    font-size: 35px;
+h1 {
+    text-align: center;
+    padding: 30px;
+
 }
 
 
-.about-col2{
+.about-col2 {
     margin-top: 30px;
     background-color: #fff;
     padding: 25px;
@@ -19,98 +19,113 @@ h1{
 }
 
 /* services */
-  #services{
-      padding: 30px 0;
-  }
-  .services-list{
-      display: grid;   
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      grid-gap: 40px;
-      margin-top: 50px;
-      
-  }
-  .services-list div{
-      background: #fff;
-      padding: 40px;
-      font-size: 13px;
-      font-weight: 300;
-      border-radius: 10px;
-      transition: background 0.5s, transform 0.5s;
-  
-  }
-  .services-list div i{
-      font-size: 50px;
-      margin-bottom: 30px;
-  }
-  .services-list div h2{
-      font-size: 30px;
-      font-weight: 500;
-      margin-bottom: 15px;
-  }
-  .services-list div a{
-      text-decoration: none;
-      color: black;
-      font-size: 12px;
-      margin-top: 20px;
-      display: inline-block;
-  }
-  .services-list div:hover{
-      background:linear-gradient(rgba(58, 58, 58, 0.6), #fff);
-      transform: translateY(-10px);
-  
-  }
+#services {
+    padding: 30px 0;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+
+}
+
+.services-list div {
+    background: #fff;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+
+}
+
+.services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.services-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.services-list div a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.services-list div:hover {
+    background: linear-gradient(rgba(58, 58, 58, 0.6), #fff);
+    transform: translateY(-10px);
+
+}
 
 /* services end*/
 
-  .wrap{
+.wrap {
     padding: 10px;
     text-align: center;
     font-size: 20px;
-  }
-  
-  .wp-block-coblocks-map iframe {
+}
+
+.wp-block-coblocks-map iframe {
     width: 700px;
     height: 500px;
     margin: 30px auto;
     padding: 20px;
-   
-    }
-    
-    iframe {
-    display: block;
-    border-style:none;
-    }
+
+}
+
 /* portfolio css  end */
 
 /*----------------contact----------------- */
-.container1{
-    padding: 10px 10%;
-}
-.row{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap:wrap ;
+
+.map-container iframe {
+    display: block;
+    border-style: none;
+    width: 100%; /* Make iframe responsive */
 }
 
-.contact-left{
+.container1 {
+    padding: 10px 10%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-left {
     flex-basis: 45%;
     flex-wrap: wrap;
 }
-.contact-right{
+
+.contact-right {
     flex-basis: 55%;
 }
-.contact-left p{
+
+.contact-left p {
     margin-top: 30px;
 }
-.contact-left p i{
+
+.contact-left p i {
     color: black;
     margin-right: 15px;
     font-size: 25px;
 }
-.socialicons{
+
+.socialicons {
     margin-top: 30px;
 }
-.socialicons a{
+
+.socialicons a {
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
@@ -119,19 +134,24 @@ h1{
     transition: transform 0.5s;
 
 }
-.socialicons a:hover{
+
+.socialicons a:hover {
     color: #fff;
     transform: translateY(-5px);
 
 }
-.button.button2{
+
+.button.button2 {
     display: inline-block;
     background: #fff;
 }
-.contact-right form{
+
+.contact-right form {
     width: 100%;
 }
-form input, form textarea{
+
+form input,
+form textarea {
     width: 100%;
     border: 0;
     outline: none;
@@ -142,25 +162,48 @@ form input, form textarea{
     font-size: 18px;
     border-radius: 6px;
 }
-form .button2{
+
+form .button2 {
     padding: 14px 60px;
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
 }
-h1{
-    margin-top: 30px;
 
+h1 {
+    margin-top: 30px;
+    font-size: 50px;
+
+}
+@media screen and (min-width: 768px) {
+    .row {
+        flex-direction: row; /* Revert to row layout for larger screens */
+    }
+
+    .contact-left {
+        flex-basis: 45%;
+        text-align: left; /* Align content to the left for larger screens */
+    }
+
+    .contact-right {
+        flex-basis: 55%;
+    }
+    
+}
+@media screen and (max-width: 767px) {
+    .map-container iframe {
+        height: 300px; /* Adjust height for smaller screens */
+    }
 }
 
 /*------contact end----- */
 
 
 /* watsapp */
-.whatsapp_float{
-    position:fixed;
-    bottom:40px;
-    right:20px;
+.whatsapp_float {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
 }
 
 /* watsapp end */
