@@ -83,8 +83,18 @@ body {
     cursor: pointer;
     transform: scale(1.1);
 }
-
-
+@media only screen and (max-width: 768px) {
+    .gallery1 div {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .gallery1 div img {
+      width: 48%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  }
 /* portfolio */
 
 .gallery2{
