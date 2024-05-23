@@ -192,7 +192,8 @@ h1 {
 }
 @media screen and (max-width: 767px) {
     .map-container iframe {
-        height: 300px; /* Adjust height for smaller screens */
+        width: calc(100vw - 30px); /* Set width relative to viewport width */
+        max-width: 100%; /* Ensure iframe doesn't exceed container's width */
     }
     .contact-right form input,
     .contact-right form textarea {
