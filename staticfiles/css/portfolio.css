@@ -89,7 +89,7 @@ h1 {
 .map-container iframe {
     display: block;
     border-style: none;
-    width: 100%; /* Make iframe responsive */
+   
 }
 
 .container1 {
@@ -205,7 +205,19 @@ h1 {
         font-size: 16px; /* Decrease font size for smaller screens */
         margin-top: 10px; /* Adjust margin for smaller screens */
     }
+   
+    .contact-left p a {
+        font-size: 16px; /* Decrease font size for smaller screens */
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
 
+    /* Specific rules for Chrome */
+    @supports (-webkit-appearance:none) {
+        .contact-left p a {
+            font-size: 16px; /* Adjust font size for Chrome */
+            margin-top: 10px; /* Adjust margin for Chrome */
+        }
+    }
 }
 
 /*------contact end----- */
