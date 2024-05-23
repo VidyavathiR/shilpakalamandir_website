@@ -194,6 +194,17 @@ h1 {
     .map-container iframe {
         height: 300px; /* Adjust height for smaller screens */
     }
+    .contact-right form input,
+    .contact-right form textarea {
+        width: 100%; /* Make form inputs full width on smaller screens */
+        margin: 10px 0; /* Adjust margin for smaller screens */
+    }
+
+    .contact-left p {
+        font-size: 16px; /* Decrease font size for smaller screens */
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+
 }
 
 /*------contact end----- */
