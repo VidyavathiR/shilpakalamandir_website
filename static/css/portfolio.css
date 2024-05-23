@@ -89,6 +89,7 @@ h1 {
 iframe {
     display: block;
     border-style: none;
+    width: 100%; /* Make iframe responsive */
 }
 
 .container1 {
@@ -174,7 +175,6 @@ h1 {
     font-size: 50px;
 
 }
-
 @media screen and (min-width: 768px) {
     .row {
         flex-direction: row; /* Revert to row layout for larger screens */
@@ -182,6 +182,7 @@ h1 {
 
     .contact-left {
         flex-basis: 45%;
+        text-align: left; /* Align content to the left for larger screens */
     }
 
     .contact-right {
